@@ -129,7 +129,7 @@
 <circle x="16.51" y="1.27" radius="1.016" width="0.254" layer="21"/>
 <circle x="16.51" y="3.81" radius="1.016" width="0.254" layer="21"/>
 <text x="6.4516" y="5.5626" size="1.2" layer="21" font="fixed" ratio="15">Reset</text>
-<text x="12.5222" y="0.9398" size="0.8128" layer="16" ratio="25" rot="MR0">10-12-11</text>
+<text x="14.9352" y="0.9398" size="0.8128" layer="16" ratio="25" rot="MR0">v14</text>
 <text x="-7.112" y="-2.921" size="2.286" layer="27">Arduino Pro Mini</text>
 <text x="3.429" y="0.889" size="1.016" layer="21" ratio="15" rot="R90">9</text>
 <text x="3.429" y="3.429" size="1.016" layer="21" ratio="15" rot="R90">8</text>
