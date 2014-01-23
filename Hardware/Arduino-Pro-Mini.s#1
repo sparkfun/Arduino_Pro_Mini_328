@@ -8660,14 +8660,14 @@ Various fiducial points for machine vision alignment.</description>
 <part name="R11" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="LED1" library="SparkFun" deviceset="LED" device="0603" value="Red"/>
 <part name="GND28" library="SparkFun" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="R2" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="10K"/>
 <part name="S2" library="SparkFun" deviceset="TAC_SWITCH" device="SMD" value="Reset"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="C3" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C3" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="C1" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C1" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="330"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="330"/>
 <part name="D3" library="SparkFun" deviceset="LED" device="0603" value="Green"/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$11" library="SparkFun" deviceset="LOGO-SFE" device="NEW"/>
