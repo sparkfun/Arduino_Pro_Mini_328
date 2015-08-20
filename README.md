@@ -9,7 +9,7 @@ Both of these products use the same PCB, but are populated with unique voltage r
 
 Repository Contents
 -------------------
-
+* **/Documentation** - SVG and PDF datasheets for the Pro Mini
 * **/Hardware** - Eagle design files (Schematic and Board)
 * **/Production** - Test bed files and production panel files
 
