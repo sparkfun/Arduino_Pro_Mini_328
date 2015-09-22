@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2279853"
-     inkscape:cx="526.04752"
+     inkscape:cx="338.34169"
      inkscape:cy="379.62714"
      inkscape:current-layer="layer3"
      id="namedview3697"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2161,13 +2161,13 @@
      id="layer3"
      inkscape:label="Text">
     <image
-       sodipodi:absref="E:\Python\ProMini\..\Images\Logo.png"
-       xlink:href="..\Images\Logo.png"
-       height="136.25343"
-       width="179.28082"
-       x="801.29486"
+       sodipodi:absref="E:\Python\_Done\ProMini\..\.\..\Images\Logo.png"
+       xlink:href="..\.\..\Images\Logo.png"
+       id="image708"
        y="615.32751"
-       id="image708" />
+       x="801.29486"
+       width="179.28082"
+       height="136.25343" />
     <text
        style="font-size:12px;fill:#000000;font-family:Montserrat"
        font-size="12"
@@ -2193,7 +2193,7 @@
        y="631.69794"
        id="text682">Power</text>
     <text
-       style="font-size:12px;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       style="font-size:12.00000048px;fill:#000000;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="33.810741"
        y="648.69794"
@@ -2201,14 +2201,19 @@
        sodipodi:linespacing="125%">
       <tspan
          sodipodi:role="line"
-         id="tspan6176">Raw:5V-16V (6V-12V recommended)</tspan>
+         id="tspan4524">Raw: 5V-16V (6V-12V recommended)</tspan>
     </text>
     <text
-       style="font-size:12px;fill:#000000;font-family:Montserrat"
+       style="font-size:12.00000048px;fill:#000000;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="33.810741"
        y="665.69794"
-       id="text686">VCC:5V</text>
+       id="text686"
+       sodipodi:linespacing="125%">
+      <tspan
+         sodipodi:role="line"
+         id="tspan4522">VCC: 5V</tspan>
+    </text>
     <text
        style="font-size:12px;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
        font-size="12"
@@ -2234,7 +2239,7 @@
        id="text696"
        sodipodi:linespacing="125%">Arduino Pro Mini (DEV-11113)</text>
     <text
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.00000048px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans, Normal';text-align:start;writing-mode:lr;text-anchor:start;fill:#000000;"
        font-size="12"
        x="479.96582"
        y="67.04174"
@@ -2242,16 +2247,19 @@
        sodipodi:linespacing="125%">
       <tspan
          sodipodi:role="line"
-         id="tspan6104"
-         x="479.96582"
-         y="67.04174">Programmed as Arduino Pro Mini w/ ATMega328</tspan>
+         id="tspan4528">Programmed as Arduino Pro Mini w/ ATmega328</tspan>
     </text>
     <text
-       style="font-size:12px;font-family:Montserrat;fill:#000000"
+       style="font-size:12.00000048px;font-family:Montserrat;fill:#000000;-inkscape-font-specification:'Montserrat, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%;"
        font-size="12"
        x="479.96582"
        y="84.041748"
-       id="text700">16MHz/ 5V</text>
+       id="text700"
+       sodipodi:linespacing="125%">
+      <tspan
+         sodipodi:role="line"
+         id="tspan4520">16MHz / 5V</tspan>
+    </text>
     <rect
        style="fill:#d7d7f4;fill-rule:evenodd;stroke:#000000;stroke-width:0.44081402px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.699"
        id="rect4060"
@@ -2741,69 +2749,36 @@
        id="text3383"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4541">ATMega328P</tspan></text>
+         id="tspan4526">ATmega328P</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75987494px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;"
        x="298.43735"
        y="635.69495"
        id="text3391"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="635.69495"
-         id="tspan3395"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Absolute maxiumum VCC: 6V</tspan><tspan
+         id="tspan4530">Absolute maxiumum VCC: 6V</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="647.89478"
-         id="tspan3421"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Maximum current for chip: 200mA</tspan><tspan
+         id="tspan4532">Maximum current for chip: 200mA</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="660.09454"
-         id="tspan3399"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Maximum current per pin: 40mA</tspan><tspan
+         id="tspan4534">Maximum current per pin: 40mA</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="672.29437"
-         id="tspan3401"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Recommended current per pin:20mA</tspan><tspan
+         id="tspan4536">Recommended current per pin: 20mA</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="684.49414"
-         id="tspan3411"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">8-bit Atmel AVR</tspan><tspan
+         id="tspan4538">8-bit Atmel AVR</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="696.69397"
-         id="tspan3403"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Flash Program Memory: 32kB</tspan><tspan
+         id="tspan4540">Flash Program Memory: 32kB</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="708.89374"
-         id="tspan3405"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">EEPROM: 1kB</tspan><tspan
+         id="tspan4542">EEPROM: 1kB</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="721.09357"
-         id="tspan3407"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Internal SRAM 2kB</tspan><tspan
+         id="tspan4544">Internal SRAM: 2kB</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="733.29333"
-         id="tspan3409"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">ADC:10-bit</tspan><tspan
+         id="tspan4546">ADC: 10-bit</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="745.49316"
-         id="tspan3413"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">PWM:8bit</tspan><tspan
+         id="tspan4548">PWM: 8bit</tspan><tspan
          sodipodi:role="line"
-         x="298.43735"
-         y="757.69293"
-         id="tspan3415"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start" /></text>
+         id="tspan4550"></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.75983906px;line-height:125%;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
