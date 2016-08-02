@@ -28,10 +28,10 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -52,13 +52,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -90,7 +90,10 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -5800,46 +5803,57 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="C10" library="SparkFun" package="0603-CAP" value="0.1uF" x="7.1882" y="20.4216" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.0772" y="19.7231" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="7.9121" y="21.3614" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PROD_ID" value="CAP-00810" x="7.1882" y="20.4216" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="SparkFun" package="EIA3216" value="10uF" x="4.699" y="26.035" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.08" y="28.575" size="0.4064" layer="25" rot="R270"/>
 <attribute name="VALUE" x="5.307" y="26.227" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PROD_ID" value="CAP-00811" x="4.699" y="26.035" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R11" library="SparkFun" package="0603-RES" value="10K" x="8.89" y="26.67" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.779" y="25.9715" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="7.5565" y="26.797" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PROD_ID" value="RES-00824" x="8.89" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED1" library="Testing" package="0603-LED-ALT1" value="Red" x="8.9154" y="21.8694" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.0264" y="22.5679" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="10.4394" y="21.6789" size="0.4064" layer="27"/>
+<attribute name="PROD_ID" value="DIO-00819" x="8.9154" y="21.8694" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R2" library="SparkFun" package="0603-RES" value="10K" x="4.5466" y="5.2324" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.8481" y="4.3434" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="3.9624" y="4.7371" size="0.4064" layer="27" rot="R90"/>
+<attribute name="PROD_ID" value="RES-00824" x="4.5466" y="5.2324" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C3" library="SparkFun" package="0603-CAP" value="0.1uF" x="9.017" y="7.239" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.906" y="6.5405" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="9.7409" y="6.7056" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PROD_ID" value="CAP-00810" x="9.017" y="7.239" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C1" library="SparkFun" package="0603-CAP" value="0.1uF" x="4.5466" y="2.0574" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.8481" y="1.1684" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="5.5372" y="1.2827" size="0.4064" layer="27" rot="R90"/>
+<attribute name="PROD_ID" value="CAP-00810" x="4.5466" y="2.0574" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R6" library="SparkFun" package="0603-RES" value="330" x="13.716" y="4.9022" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.716" y="6.9022" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="13.081" y="4.5598" size="0.4064" layer="27" rot="R90"/>
+<attribute name="PROD_ID" value="RES-00818" x="13.716" y="4.9022" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D3" library="Testing" package="0603-LED-ALT1" value="Green" x="13.716" y="1.7272" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.716" y="3.7272" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="13.0556" y="0.9784" size="0.4064" layer="27" rot="R90"/>
+<attribute name="PROD_ID" value="DIO-00821" x="13.716" y="1.7272" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U2" library="SparkFun" package="SOT23-5" value="MIC5205" x="8.89" y="24.1808" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.731" y="23.2918" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="9.144" y="23.5458" size="0.4064" layer="27" rot="R90"/>
+<attribute name="PROD_ID" value="VREG-00823" x="8.89" y="24.1808" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C19" library="SparkFun" package="EIA3216" value="10uF" x="13.208" y="24.13" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.827" y="21.59" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="12.6" y="23.938" size="0.4064" layer="27"/>
+<attribute name="PROD_ID" value="CAP-00811" x="13.208" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP6" library="SparkFun" package="1X12" value="M12PTH" x="16.51" y="29.21" rot="MR270"/>
 <element name="JP7" library="SparkFun" package="1X12" value="M12PTH" x="1.27" y="1.27" rot="MR90"/>
@@ -5847,17 +5861,24 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U1" library="SparkFun" package="TQFP32-08" value="ATMEGA328" x="8.89" y="13.97" smashed="yes" rot="R315">
 <attribute name="NAME" x="10.237" y="19.8071" size="0.4064" layer="25" rot="R315"/>
 <attribute name="VALUE" x="6.9966" y="15.7739" size="0.4064" layer="27"/>
+<attribute name="PROD_ID" value="IC-09069" x="8.89" y="13.97" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
 <element name="JP1" library="SparkFun" package="1X06" value="FTDI Basic" x="15.24" y="31.75" rot="MR0"/>
-<element name="C2" library="SparkFun" package="0603-CAP" value="0.1uF" x="12.8016" y="29.21" rot="R180"/>
+<element name="C2" library="SparkFun" package="0603-CAP" value="0.1uF" x="12.8016" y="29.21" rot="R180">
+<attribute name="PROD_ID" value="CAP-00810" x="12.8016" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R1" library="SparkFun" package="0603-RES" value="" x="12.9794" y="23.1648" rot="MR90"/>
 <element name="R3" library="SparkFun" package="0603-RES" value="" x="14.2494" y="23.1648" rot="MR90"/>
 <element name="JP5" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="3.937" y="29.21"/>
 <element name="JP8" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="12.446" y="2.54"/>
 <element name="SJ1" library="SparkFun-Passives" package="SJ_2S" value="" x="4.699" y="22.225" rot="R270"/>
-<element name="S1" library="Testing" package="TACTILE-SWITCH-SMD-ALT01" value="Reset" x="9.017" y="2.667" rot="R180"/>
+<element name="S1" library="Testing" package="TACTILE-SWITCH-SMD-ALT01" value="Reset" x="9.017" y="2.667" rot="R180">
+<attribute name="PROD_ID" value="SWCH-08247" x="9.017" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="JP3" library="SparkFun" package="1X02" value="" x="13.589" y="7.493" rot="MR90"/>
-<element name="Q1" library="SparkFun" package="RESONATOR-SMD-1:1" value="8/16/20MHz" x="4.2418" y="19.0246" rot="R90"/>
+<element name="Q1" library="SparkFun" package="RESONATOR-SMD-1:1" value="8/16/20MHz" x="4.2418" y="19.0246" rot="R90">
+<attribute name="PROD_ID" value="XTAL-08900" x="4.2418" y="19.0246" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-31.75" y="-22.86"/>
 </elements>
 <signals>
