@@ -90,10 +90,10 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -5876,7 +5876,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="SWCH-08247" x="9.017" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP3" library="SparkFun" package="1X02" value="" x="13.589" y="7.493" rot="MR90"/>
-<element name="Q1" library="SparkFun" package="RESONATOR-SMD-1:1" value="8/16/20MHz" x="4.2418" y="19.0246" rot="R90">
+<element name="Q1" library="SparkFun" package="RESONATOR-SMD-1:1" value="8/16MHz" x="4.2418" y="19.0246" rot="R90">
 <attribute name="PROD_ID" value="XTAL-08900" x="4.2418" y="19.0246" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-31.75" y="-22.86"/>

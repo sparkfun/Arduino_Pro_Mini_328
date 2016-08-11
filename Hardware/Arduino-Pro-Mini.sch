@@ -4288,7 +4288,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <attribute name="PROD_ID" value="SWCH-08247"/>
 </part>
 <part name="JP3" library="SparkFun" deviceset="M02" device="PTH"/>
-<part name="Q1" library="SparkFun" deviceset="RESONATOR" device="1:1" value="8/16/20MHz">
+<part name="Q1" library="SparkFun" deviceset="RESONATOR" device="1:1" value="8/16MHz">
 <attribute name="PROD_ID" value="XTAL-08900"/>
 </part>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
@@ -8438,7 +8438,7 @@ Max Current Output: 150mA</text>
 <vertex x="209.71" y="48.47"/>
 </polygon>
 <text x="167.64" y="13.462" size="1.524" layer="94" font="vector" align="top-left">Original Arduino Mini Design by Team Arduino
-Arduino Pro Mini Design by Spark Fun Electronics
+Arduino Pro Mini Design by SparkFun Electronics
 Revised by: Marshall Taylor</text>
 </plain>
 <instances>
@@ -8531,11 +8531,9 @@ Revised by: Marshall Taylor</text>
 <attribute name="VALUE" x="133.604" y="107.696" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="JP6" gate="G$1" x="101.6" y="25.4" smashed="yes" rot="R180">
-<attribute name="VALUE" x="101.6" y="45.72" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="101.6" y="9.398" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="JP7" gate="G$1" x="43.18" y="27.94" smashed="yes">
-<attribute name="VALUE" x="43.18" y="7.62" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="43.18" y="43.942" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND4" gate="1" x="137.16" y="114.3" smashed="yes">
@@ -8557,7 +8555,7 @@ Revised by: Marshall Taylor</text>
 <attribute name="VALUE" x="144.78" y="86.36" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="JP1" gate="G$1" x="17.78" y="25.4" smashed="yes">
-<attribute name="VALUE" x="12.7" y="15.24" size="1.778" layer="96" font="vector"/>
+<attribute name="VALUE" x="7.62" y="15.24" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="12.7" y="36.322" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="C2" gate="G$1" x="114.3" y="149.86" smashed="yes" rot="R270">
@@ -8565,13 +8563,13 @@ Revised by: Marshall Taylor</text>
 <attribute name="VALUE" x="118.999" y="150.876" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="PROD_ID" x="114.3" y="149.86" size="1.27" layer="96" font="vector" rot="R270" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="210.82" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="209.3214" y="143.51" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="214.122" y="143.51" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="210.82" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.3214" y="146.05" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="214.122" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="215.9" y="144.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="214.4014" y="140.97" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="219.202" y="140.97" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="215.9" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="214.4014" y="146.05" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="219.202" y="146.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+2" gate="G$1" x="210.82" y="157.48" smashed="yes">
 <attribute name="VALUE" x="209.804" y="161.036" size="1.778" layer="96" font="vector"/>
@@ -8599,7 +8597,7 @@ Revised by: Marshall Taylor</text>
 </instance>
 <instance part="Q1" gate="G$1" x="147.32" y="121.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="143.764" y="125.73" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="137.922" y="116.332" size="1.778" layer="96" font="vector"/>
+<attribute name="VALUE" x="140.462" y="116.332" size="1.778" layer="96" font="vector"/>
 <attribute name="PROD_ID" x="147.32" y="121.92" size="1.27" layer="96" font="vector" rot="R270" display="off"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -8854,12 +8852,12 @@ Revised by: Marshall Taylor</text>
 <pinref part="P+5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="152.4" x2="210.82" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="154.94" x2="210.82" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="G$1" pin="3.3V"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="149.86" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="154.94" x2="215.9" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="G$1" pin="3.3V"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
@@ -8931,9 +8929,12 @@ Revised by: Marshall Taylor</text>
 </segment>
 <segment>
 <wire x1="198.12" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="137.16" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="137.16" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
+<label x="220.98" y="137.16" size="1.27" layer="95" xref="yes"/>
+<junction x="215.9" y="137.16"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -8944,9 +8945,12 @@ Revised by: Marshall Taylor</text>
 </segment>
 <segment>
 <wire x1="198.12" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="139.7" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="139.7" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PC4(ADC4/SDA)"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<label x="220.98" y="139.7" size="1.27" layer="95" xref="yes"/>
+<junction x="210.82" y="139.7"/>
 </segment>
 </net>
 <net name="A3" class="0">
