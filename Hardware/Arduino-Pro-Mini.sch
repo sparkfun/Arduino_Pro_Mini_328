@@ -4304,7 +4304,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="217.678" y="149.86" size="1.778" layer="97" font="vector">Optional
 I2C Pull-ups</text>
 <text x="240.284" y="7.366" size="2.54" layer="94" font="vector">16</text>
-<text x="7.62" y="119.38" size="1.778" layer="97" font="vector" align="top-left">Power isolation jumper SJ1:
+<text x="50.8" y="114.3" size="1.778" layer="97" font="vector" align="top-left">Power isolation jumper SJ1:
  Open to source mini from
  alternate supply.  Usually
  for low-power applications.</text>
@@ -4321,7 +4321,7 @@ Max Current Output: 150mA</text>
 <text x="5.08" y="121.92" size="3.175" layer="97" font="vector">Regulation</text>
 <wire x1="104.14" y1="127" x2="104.14" y2="53.34" width="0.1524" layer="97" style="longdash"/>
 <wire x1="0" y1="127" x2="104.14" y2="127" width="0.1524" layer="97" style="longdash"/>
-<text x="147.32" y="167.64" size="3.175" layer="97" font="vector">Microcontroller</text>
+<text x="149.86" y="172.72" size="3.175" layer="97" font="vector">Microcontroller</text>
 <rectangle x1="224.1741" y1="36.7094" x2="224.2757" y2="36.7221" layer="94"/>
 <rectangle x1="224.1614" y1="36.7221" x2="224.2884" y2="36.7348" layer="94"/>
 <rectangle x1="224.1487" y1="36.7348" x2="224.3011" y2="36.7475" layer="94"/>
@@ -8440,6 +8440,10 @@ Max Current Output: 150mA</text>
 <text x="167.64" y="13.462" size="1.524" layer="94" font="vector" align="top-left">Original Arduino Mini Design by Team Arduino
 Arduino Pro Mini Design by SparkFun Electronics
 Revised by: Marshall Taylor</text>
+<text x="152.4" y="170.18" size="1.778" layer="97" font="vector" align="top-left">Place 8MHz XTAL for 3.3V
+Place 16MHz XTAL for 5.0V</text>
+<text x="7.62" y="119.38" size="1.778" layer="97" font="vector" align="top-left">Place 3.3V Reg. for 8MHz
+Place 5.0V Reg for 16MHz</text>
 </plain>
 <instances>
 <instance part="C10" gate="G$1" x="83.82" y="88.9" smashed="yes">
@@ -8583,8 +8587,8 @@ Revised by: Marshall Taylor</text>
 <attribute name="NAME" x="66.04" y="99.06" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="66.04" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="P+4" gate="G$1" x="86.36" y="99.06" smashed="yes">
-<attribute name="VALUE" x="85.344" y="102.616" size="1.778" layer="96" font="vector"/>
+<instance part="P+4" gate="G$1" x="96.52" y="99.06" smashed="yes">
+<attribute name="VALUE" x="95.504" y="102.616" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="S1" gate="G$1" x="124.46" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="121.92" y="139.7" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -8863,9 +8867,9 @@ Revised by: Marshall Taylor</text>
 </segment>
 <segment>
 <pinref part="P+4" gate="G$1" pin="3.3V"/>
-<wire x1="86.36" y1="99.06" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="99.06" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="86.36" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C13" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="96.52" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
