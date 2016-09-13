@@ -4303,7 +4303,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <plain>
 <text x="217.678" y="149.86" size="1.778" layer="97" font="vector">Optional
 I2C Pull-ups</text>
-<text x="240.284" y="7.366" size="2.54" layer="94" font="vector">16</text>
+<text x="240.284" y="7.366" size="2.54" layer="94" font="vector">v20</text>
 <text x="35.56" y="109.22" size="1.778" layer="97" font="vector" align="top-left">Power isolation jumper SJ1:
  Open to source mini from  alternate supply.
 (Usually for low-power applications)</text>
