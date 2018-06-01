@@ -3,8 +3,8 @@ Arduino Pro Mini 328
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><a href="https://www.sparkfun.com/products/11113"><img src="https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/1/1/3/11113-01d_i_ma.jpg" title="Arduino Pro Mini 328 - 5V/16MHz"></a></td>
-   <td><a href="https://www.sparkfun.com/products/11114"><img src="https://cdn.sparkfun.com/assets/parts/6/5/4/0/11114-01.jpg" title="Arduino Pro Mini 328 - 3.3V/8MHz
+   <td><a href="https://www.sparkfun.com/products/11113"><img src="https://cdn.sparkfun.com/assets/parts/6/5/3/9/11113-04b.jpg" title="Arduino Pro Mini 328 - 5V/16MHz"></a></td>
+   <td><a href="https://www.sparkfun.com/products/11114"><img src="https://cdn.sparkfun.com/assets/parts/6/5/4/0/11114-04.jpg" title="Arduino Pro Mini 328 - 3.3V/8MHz
 "></a></td>
   </tr>
   <tr align="center">
@@ -25,7 +25,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v)** - Basic hookup guide for the Arduino Pro Mini 3.3V/8MHz. It can be used as a guide with the 5V. The only difference is selecting the board definition in the Arduino IDE and logic levels.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v)** - Basic hookup guide for the Arduino Pro Mini 3.3V/8MHz. It can be used as a guide with the 5V. The only difference when following the tutorial is selecting the board definition in the Arduino IDE and the voltage levels.
 
 Product Versions
 ----------------
