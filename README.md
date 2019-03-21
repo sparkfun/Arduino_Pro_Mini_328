@@ -30,7 +30,9 @@ Documentation
 Product Versions
 ----------------
 * [DEV-11113](https://www.sparkfun.com/products/11113)- 5V/16MHz Pro Mini
+* [DEV-15254](https://www.sparkfun.com/products/15254)- 5V/16MHz Pro Mini Starter Kit
 * [DEV-11114](https://www.sparkfun.com/products/11114)- 3.3V/8MHz Pro Mini
+* [DEV-15257](https://www.sparkfun.com/products/15257)- 3.3V/8MHz Pro Mini Starter Kit 
 
 License Information
 -------------------
